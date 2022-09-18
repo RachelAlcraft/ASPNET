@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Page2";
+}
+
+<div class="navbar">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Start", "Index", "Documentation")</li>
+        <li>@Html.ActionLink("Page1", "Page1", "Documentation")</li>
+        <li>@Html.ActionLink("Page2", "Page2", "Documentation")</li>
+        <li>@Html.ActionLink("Page3", "Page3", "Documentation")</li>
+        <li>@Html.ActionLink("Page4", "Page4", "Documentation")</li>
+        <li>@Html.ActionLink("Page5", "Page5", "Documentation")</li>
+        <li>@Html.ActionLink("Page6", "Page6", "Documentation")</li>
+    </ul>
+</div>
+
+
+<h3>Page 2, Documentation: My 1 Player Game</h3>
+
+
+<p>You can play my version below. I think it is fairly easy. 
+    I'll tell you what I did, though I'm not really allowed to...
+    I used the arrow keys, up for up, right for right, down for down, left for left. I think it is almost obvious.</p>
+<p>
+    Have a go at my game if you like?
+</p>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/93545378/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+<p>
+    Anyway, we've done the easy bit, click below to make a 2 player game!
+    <br />@Html.ActionLink("Next>>", "Page3", "Documentation")
+</p>
+
+
+

@@ -1,0 +1,45 @@
+﻿html {
+    background-color: #e80c4d;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #d1ffdd;
+    font-size: 1.2em;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+footer {
+    clear: both;
+    background-color: #d1ffdd;
+    font-size: .8em;
+    height: 100px;
+}
+
+.container{
+width: 100%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}

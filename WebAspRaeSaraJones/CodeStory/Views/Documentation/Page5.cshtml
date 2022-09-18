@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Page5";
+}
+
+<div class="navbar">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Start", "Index", "Documentation")</li>
+        <li>@Html.ActionLink("Page1", "Page1", "Documentation")</li>
+        <li>@Html.ActionLink("Page2", "Page2", "Documentation")</li>
+        <li>@Html.ActionLink("Page3", "Page3", "Documentation")</li>
+        <li>@Html.ActionLink("Page4", "Page4", "Documentation")</li>
+        <li>@Html.ActionLink("Page5", "Page5", "Documentation")</li>
+        <li>@Html.ActionLink("Page6", "Page6", "Documentation")</li>
+    </ul>
+</div>
+
+
+<h3>Page 5, Documentation: Adding instructions</h3>
+
+<p>
+    Brilliant news! The Games Company have said we can write some documentation to go with the game.
+    They want us to keep it short (they're obsessed with tweets), but we can write something about how to play it. Can you try and see what you come up with?
+</p>
+<p>Create the game and the documentation, and then get your volunteer to play to with you, see how it works this time.
+    <br />There is one new thing to do - click the pencil and you can write in the instructions.
+    </p>
+
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/93538505/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+<p>
+    I think you have done a brilliant job, you have really helped me. I've used all of your ideas and made the final version.
+    <br />Click below for the final game.    
+    <br />@Html.ActionLink("Next>>", "Page6", "Documentation")
+</p>
+

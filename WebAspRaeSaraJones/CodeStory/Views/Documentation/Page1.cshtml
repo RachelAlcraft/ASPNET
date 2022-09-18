@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Page1";
+}
+
+<div class="navbar">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Start", "Index", "Documentation")</li>
+        <li>@Html.ActionLink("Page1", "Page1", "Documentation")</li>
+        <li>@Html.ActionLink("Page2", "Page2", "Documentation")</li>
+        <li>@Html.ActionLink("Page3", "Page3", "Documentation")</li>
+        <li>@Html.ActionLink("Page4", "Page4", "Documentation")</li>
+        <li>@Html.ActionLink("Page5", "Page5", "Documentation")</li>
+        <li>@Html.ActionLink("Page6", "Page6", "Documentation")</li>
+    </ul>
+</div>
+
+
+<h3>Page 1, Documentation: Design a 1 player game</h3>
+
+
+<p>
+    <br />This is the secret bit: prepare the project following these instructions.
+    <ul>
+        <li>Click the green flag</li>
+        <li>Click the keyboard picture</li>
+        <li>Follow the instructions, you are asked to click on which key you want to use for each of up, right, left and down</li>
+        <li>Then click on the ball to play the game</li>
+        <li>If you want to change the keys, press on the Home and then choose the keys again</li>
+        <li>When you are happy get your volunteer to play the game <b>without any instructions!</b></li>
+        <li>After they have tried, you can tell your volunteer how to play and let them have another go</li>
+    </ul>
+</p>
+
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/93538534/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+
+
+<p>
+    You did a brilliant job! Click on the link below to see what I did.
+    <br />@Html.ActionLink("Next>>", "Page2", "Documentation")
+</p>

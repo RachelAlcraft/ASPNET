@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Software Development and <br />Computational Thinking</h2>
+    <p class="lead">The computing curriculum, statutory across the school years from September 2014, places a great deal of emphasis on computational thinking.
+    <br /> These activities are designed to focus on computational thinking at different stages of the software development process.
+    </p>    
+</div>
+
+<p>Teachers and parents please click @Html.ActionLink("here", "Teachers", "Home") before you and your kids begin to register and read about the materials.</p>
+<p>Exploire the website for further information about the activities of the masters project.</p>
+<p>For the activities click the images below.</p>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>User Experience</h3>
+        <h3>Simple Simon Game Design</h3>        
+        <p>
+            An activity designed to teach computational thinking alongside user interface design.
+            <a href='@Url.Action("Index", "UserDesign")'>
+                <img src='@Url.Content("~/Images/Activity2.png")' style="float:none;width:256px;height:256px;" />
+            </a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>Requirements</h3>
+        <h3>The Great Lift Problem</h3>        
+        <p>
+            An activity designed to teach computational thinking alongside requirements analysis.
+            <a href='@Url.Action("Index", "Requirements")'>
+                <img src='@Url.Content("~/Images/Activity1.png")' style="float:none;width:256px;height:256px;" />
+            </a>                        
+        </p>                       
+            
+    </div>   
+    <div class="col-md-4">
+        <h3>Documentation</h3>
+        <h3>But What Do We Do?</h3>        
+        <p>An activity designed to teach computational thinking alongside documentation.
+            <a href='@Url.Action("Index", "Documentation")'>
+                <img src='@Url.Content("~/Images/Activity3.png")' style="float:none;width:256px;height:256px;" />
+            </a>                                                
+        </p>        
+    </div>
+</div>

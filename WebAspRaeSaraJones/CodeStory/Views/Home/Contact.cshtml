@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<div class="jumbotron">
+    <h2>Software Development and <br />Computational Thinking</h2>
+    <p class="lead">
+        The computing curriculum, statutory across the school years from September 2014, places a great deal of emphasis on computational thinking.
+        <br /> These activities are designed to focus on computational thinking at different stages of the software development process.
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Teachers/Parents</h2>
+        <p>
+            The activities devised here are designed to be facilitated to groups or classes of children in a school setting or to children at home with their parents or carers.
+            The activities are available both as paper version or online.
+        </p>
+        @Html.ActionLink("See more at the Teacher's Page", "Teachers", "Home")
+
+
+    </div>
+    <div class="col-md-4">
+        <h2>Children</h2>
+        <p>There are 3 fun activities to explore. Make sure a parent or teacher is prepared to sign you in, and take a look at the activities now.</p>
+        @Html.ActionLink("Code Activities", "Kids", "Home")
+    </div>
+    <div class="col-md-4">
+        <h2>Masters' Dissertation</h2>
+        <p>These activities have been developed in conjunction with a Masters' dissertation in Software Development through the Open University.</p>
+        @Html.ActionLink("More Information", "Masters", "Home")
+    </div>
+</div>
